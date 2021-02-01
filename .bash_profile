@@ -27,6 +27,4 @@ done;
 
 # -----------------------------------------------------------------------
 
-export PATH="$PATH:$HOME/Desktop/dockerVolumes/flutter/bin"
-
 export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
