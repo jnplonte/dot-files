@@ -7,4 +7,4 @@
 
 
 ## Installation
-- create virtualenv `source start.sh`
+- run `source start.sh`

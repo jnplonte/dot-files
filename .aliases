@@ -23,6 +23,11 @@ alias open:web="cd ~/webFiles"
 
 
 
+# Google Chrome
+alias open:chrome='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
+
+
+
 #Start
 alias g="git"
 alias start:html='python -m SimpleHTTPServer 8888'
@@ -53,12 +58,6 @@ alias lsd="ls -lF ${colorflag} | grep --color=never '^d'"
 # Always use color output for `ls`
 alias ls="command ls ${colorflag}"
 
-# Always enable colored `grep` output
-# Note: `GREP_OPTIONS="--color=auto"` is deprecated, hence the alias usage.
-alias grep='grep --color=auto'
-alias fgrep='fgrep --color=auto'
-alias egrep='egrep --color=auto'
-
 
 
 # Get week number
@@ -71,15 +70,36 @@ alias cmd:update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cle
 
 
 
-# Google Chrome
-alias open:chrome='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
-
-
-
 # IP addresses
 alias cmd:ip="dig +short myip.opendns.com @resolver1.opendns.com"
 alias cmd:localip="ipconfig getifaddr en0"
 alias cmd:ips="ifconfig -a | grep -o 'inet6\? \(addr:\)\?\s\?\(\(\([0-9]\+\.\)\{3\}[0-9]\+\)\|[a-fA-F0-9:]\+\)' | awk '{ sub(/inet6? (addr:)? ?/, \"\"); print }'"
+
+
+
+# Show active network interfaces
+alias cmd:ifactive="ifconfig | pcregrep -M -o '^[^\t:]+:([^\n]|\n\t)*status: active'"
+
+
+
+# Flush Directory Service cache
+alias cmd:flush="dscacheutil -flushcache && killall -HUP mDNSResponder"
+
+
+
+# Clean up LaunchServices to remove duplicates in the “Open With” menu
+alias cmd:lscleanup="/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -kill -r -domain local -domain system -domain user && killall Finder"
+
+
+
+# Canonical hex dump; some systems have this symlinked
+command -v hd > /dev/null || alias hd="hexdump -C"
+
+# macOS has no `md5sum`, so use `md5` as a fallback
+command -v md5sum > /dev/null || alias md5sum="md5"
+
+# macOS has no `sha1sum`, so use `shasum` as a fallback
+command -v sha1sum > /dev/null || alias sha1sum="shasum"
 
 
 
