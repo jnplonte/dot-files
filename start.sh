@@ -8,7 +8,6 @@ function doIt() {
 	rsync --exclude ".git/" \
 		--exclude "start.sh" \
 		--exclude "README.md" \
-		--exclude "LICENSE.txt" \
 		-avh --no-perms . ~;
 	source ~/.bash_profile;
 }
