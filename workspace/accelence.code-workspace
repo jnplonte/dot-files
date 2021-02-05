@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "refuze-api"
+		},
+		{
+			"path": "points-api"
+		},
+		{
+			"path": "refuze_customer_app"
+		},
+		{
+			"path": "refuze_employee_app"
+		},
+		{
+			"path": "refuze-admin"
+		}
+	],
+	"settings": {}
+}

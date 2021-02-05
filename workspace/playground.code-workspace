@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "../main"
+		},
+		{
+			"path": "node-api"
+		},
+		{
+			"path": "react-web"
+		},
+		{
+			"path": "vue-web"
+		},
+		{
+			"path": "../../littlemonsterclothing"
+		},
+		{
+			"path": "../../drdoogrooming"
+		}
+	],
+	"settings": {}
+}

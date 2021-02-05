@@ -1,0 +1,116 @@
+{
+	"folders": [
+		{
+			"name": "_helper",
+			"path": "/Users/jnpl/Desktop/webFiles/_helper"
+		},
+		{
+			"path": "legacy-api"
+		},
+		{
+			"path": "ai-api-v2"
+		},
+		{
+			"path": "socket-api"
+		},
+		{
+			"path": "core-api"
+		},
+		{
+			"path": "notification-api"
+		},
+		{
+			"path": "analytics-api"
+		},
+		{
+			"path": "queueing-api"
+		},
+		{
+			"path": "planning-web-v2"
+		},
+		{
+			"path": "booking-web"
+		},
+		{
+			"path": "inventory-web"
+		},
+		{
+			"path": "wechat-web"
+		},
+		{
+			"path": "cs-proxy-web"
+		},
+		{
+			"path": "ws.logflows"
+		},
+		{
+			"path": "marketplace-admin"
+		},
+		{
+			"path": "service"
+		},
+		{
+			"path": "warehouse-v2"
+		},
+		{
+			"path": "project-boilderplate"
+		},
+		{
+			"path": "customerportal-v2"
+		},
+		{
+			"path": "report-v2"
+		},
+		{
+			"path": "connection-api"
+		},
+		{
+			"path": "authentication-api"
+		},
+		{
+			"path": "docker-php"
+		},
+		{
+			"path": "report-v1"
+		},
+		{
+			"path": "consolidation-web"
+		},
+		{
+			"path": "consolidation-admin"
+		},
+		{
+			"path": "marketplace-web-v3"
+		},
+		{
+			"path": "marketplace-admin-v3"
+		},
+		{
+			"path": "marketplace-api"
+		},
+		{
+			"path": "customerportal-api-v2"
+		},
+		{
+			"path": "customerportal-admin-v2"
+		},
+		{
+			"path": "cs.logflows"
+		},
+		{
+			"path": "schoolbus.logflows"
+		},
+		{
+			"path": "customerportal-shopify-v2"
+		},
+		{
+			"path": "warehouse-api-v2"
+		},
+		{
+			"path": "wms-galaxy"
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true
+	}
+}
