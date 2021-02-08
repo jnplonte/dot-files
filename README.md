@@ -8,3 +8,10 @@
 
 ## Installation
 - run `source start.sh`
+
+
+## cheatsheet
+- open folders `open:*`
+- start servers `start:*`
+- run commands `cmd:*`
+- run functions `func:*`
